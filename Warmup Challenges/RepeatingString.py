@@ -21,7 +21,7 @@ def repeatedString(s, n):
     ## Increase exe speed
     if s.count("a")==0:
         return 0
-    else
+    else:
         return n//len(s)*s.count("a")+ s[:n%len(s)].count("a")   
     ## One line code
     
